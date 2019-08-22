@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Marketing  extends Departament implements Evaluator{
 
-public class Marketing {
+    public StatusCandidat evalueaza(Candidat candidat){
+        //to be implemented
+        return StatusCandidat.ACCEPTAT;
+    }
 }

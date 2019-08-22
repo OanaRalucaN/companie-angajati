@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Productie extends Departament implements Evaluator{
+    //static final=constanta
+    //nume="Productie"
+    //nivelComp=3
 
-public class Productie {
+    public StatusCandidat evalueaza(Candidat candidat){
+        //to be implemented
+        return StatusCandidat.ACCEPTAT;
+    }
 }
